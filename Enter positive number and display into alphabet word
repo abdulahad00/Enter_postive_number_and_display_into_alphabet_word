@@ -1,0 +1,47 @@
+import 'dart:io';
+void main() {
+int number;
+print("Enter a postive number");
+number=int.parse(stdin.readLineSync()!);
+print("You enter number is $number and in english word is that");
+if(number==1)
+{
+print("One");
+}
+else if(number==2)
+{
+print("TWO");
+}
+else if(number==3)
+{
+print("THREE");
+}
+else if(number==4)
+{
+print("FOUR");
+}
+else if(number==5)
+{
+print("FIVE");
+}
+else if(number==6)
+{
+print("SIX");
+}
+else if(number==7)
+{
+print("SEVEN");
+}
+else if(number==8)
+{
+print("EIGHT");
+}
+else if(number==9)
+{
+print("NINE");
+}
+else
+{
+print("Enter only 1 to 9");
+}
+}
